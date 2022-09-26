@@ -38,7 +38,7 @@ public class Molusco extends Invertebrados{
     public String toString() {
         
         String isPatas = this.isPatasArticuladas() ? "SI tengo patas articuladas." : "NO tengo patas articulas.";
-        String isConcha = this.isConcha() ? "NO poseo una concha" : "SI poseo una concha";
+        String isConcha = this.isConcha() ? "SI poseo una concha" : "NO poseo una concha";
         String isExtremidades = this.getnExtremidades() == 0 ? "NO tengo" : "tengo" + this.getnExtremidades();
 
         return "Soy un "+ this.getNombre() +" invertebrado '" + this.getNombreCientifico() + "'. " + isPatas +

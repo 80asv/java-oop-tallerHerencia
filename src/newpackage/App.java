@@ -3,7 +3,10 @@ public class App {
     /** 
      *  @author Andres Sanabria
      *  Trabajo subido el dia 25/09/2022 -> https://github.com/80asv/java-oop-tallerHerencia.git
+     *  
      * 
+     *  * el programa imprime dos animales por cada clase creada, en caso de que no imprima todos los animales, volver a compilar
+     *  * En mi caso no se porque la primera que compila en la consola no se muestran todos. Despues de la segunda imprime normal. tener esto en cuenta. 
     */
     public static void mostrarAnimales(Animal arr[]){
         String animalActual = "";
